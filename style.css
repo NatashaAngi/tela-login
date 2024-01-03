@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+/*font-family: 'Mooli', sans-serif;*/
+*{ border: 0;
+padding: 0;
+margin: 0;
+outline: 0;
+text-decoration: none;
+box-sizing: border-box;}
+
+.esqueceu {font-family: 'Mooli', sans-serif; font-size: 90px; color: deeppink; background-color: #2e2e2e; border: 2px solid deeppink; margin-top: 200px;}
+
+body, html {background-color:#222222;height: 100vh; width:100vw;}
+
+main{height: 100vh; width:100vw; position:relative;}
+
+#login{background-color:#2e2e2e88; width: 295px; height: 550px; border-radius: 40px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); overflow: hidden; box-shadow: 0px 0px 30px black; transition:width 0.3s, height 0.3s ; transition-timing-function: ease;}
+
+#login > #imagem {background: #2e2e2e url(./imagens/pexels-grande.jpg); height: 200px; background-size: cover; background-repeat: no-repeat; display: block;}
+
+#login > #formulario {padding:10px; display: block;}
+
+h1{font-family: 'Mooli', sans-serif; text-align: center;color: aliceblue; text-shadow: 2px 2px 20px black; margin-bottom:7px;}
+
+p{ font-family: 'Mooli', sans-serif; text-align: center; color:aliceblue; text-shadow: 2px 2px 20px black; font-size: 15px;margin-bottom:20px;}
+
+.campo >span {font-size: 2em; ;}
+
+.campo >input {background-color:#69696988;font-size: 1em; width:calc(100% -44px);height: 100%; border-radius: 10px; transform: translateY(-10px);}
+
+form > .campo > span{ margin-left: 25px;}
+
+form > .campo{color: aliceblue;height:50px; border-radius: 10px;margin-bottom: 10px;}
+
+.campo > label{display: none;}
+
+form >input[type=submit]{ display: block; font-size: 1em; width: 55%; height: 40px; background-color: #1a1a1a; border-radius: 10%; cursor: pointer; margin: auto; color: white; margin-bottom: 10px;font-family: 'Mooli', sans-serif}
+
+form > input[type=submit]:hover{background-color:#2e2e2e88; border: 1px solid black;box-shadow: inset 0px 0px 5px black; }
+
+form > a.botao {display: block;text-align: center;width: 55%; height: 40px; background-color: #1a1a1a; margin: auto;border:5px black; border-radius: 10px; text-decoration: none; color: white; padding-top:5px;font-family: 'Mooli', sans-serif}
+
+form > a.botao > span{ font-size:20px;}
+
+form > a.botao:hover{background-color:#2e2e2e88;border: 1px solid black;box-shadow: inset 0px 0px 5px black}
